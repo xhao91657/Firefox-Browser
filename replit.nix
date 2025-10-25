@@ -1,7 +1,8 @@
 { pkgs }: {
-    deps = [
-        pkgs.nodejs
-        pkgs.firefox 
-        pkgs.cowsay
-    ];
+  deps = [
+    pkgs.nodejs
+    pkgs.firefox
+    pkgs.cowsay
+    pkgs.dbus
+  ];
 }
